@@ -12,13 +12,13 @@ Proyecto asociado a la prueba tecnica propuesta para el cargo para desarrollador
 
 # Instruccion de Uso
 - Descargar el backup de la base de datos que se encuentra en la ruta "Data"
-- actaulizar los settings de conectión string:
-  "ConnectionStrings": {
+- Actaulizar los settings de conectión string:
+- "ConnectionStrings": {
     "PrototypeConnection": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   }
  - El aplicativo guarda las imagenes en gile storage por tal motivo se debe actaulizar el setting de la ruta:
-   "FileSettings": {
+ -  "FileSettings": {
     "pathOwnerPhotos": "c://proptotype/"
   },
   
-- Existe un api de autenticación la ula devuelve la información de inicio de sessión en especial el token necesario para el consumo de las demás APIs.  
+- Existe un API de autenticación la cual es la encargada de devolker el token necesario para el consumo de las demás APIs.  
