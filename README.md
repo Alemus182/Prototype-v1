@@ -1,6 +1,6 @@
 # Prototype-v1
 
-Proyecto asociado a la prueba tecnica propuesta para el cargo para desarrollador Senior, basandose en en los enfoques propuestos de data driven, clean architecture y el uso de los proncipios de desarrollo SOLID.
+Línea base para construccuión de apis basadas en .net 5, bajo los enfoques propuestos de data driven, clean architecture y el uso de los proncipios de desarrollo SOLID.
 
 # Pila Tecnologíca
 - .net 5
