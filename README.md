@@ -16,9 +16,9 @@ Línea base para construccuión de apis basadas en .net 5, bajo los enfoques pro
 - "ConnectionStrings": {
     "PrototypeConnection": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   }
- - El aplicativo guarda las imagenes en gile storage por tal motivo se debe actaulizar el setting de la ruta:
+ - El aplicativo guarda las imagenes en file storage por tal motivo se debe actaulizar el setting de la ruta:
  -  "FileSettings": {
     "pathOwnerPhotos": "c://proptotype/"
   },
   
-- Existe un API de autenticación la cual es la encargada de devolker el token necesario para el consumo de las demás APIs.  
+- Existe un API de autenticación la cual es la encargada de devolver el token necesario para el consumo de las demás APIs.  
