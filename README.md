@@ -1,29 +1,36 @@
 # Prototype-v1
 
-Baseline for construction of an API based on .net 5, under the proposed clean architecture approaches and the use of SOLID development principles.
-As well as a single page application base in angular 
+Baseline for construction of an API based on .net 7, under the proposed clean architecture approaches and the use of SOLID development principles.
+As well as a single page application base in angular like a front end.
 
 # Technology Stack
 ## Backend
-    - .net 5
+    - .net 7
     - Minimal Apis
     - FluentValidation
     - Mediator
+    - NLog
     - JWT Bearer token `autentication`
 ## Frontend
     - Angular 10
     - Angular Material
     - Boostrap
     - RxJs
-# Instruccion de Uso
-- Descargar el backup de la base de datos que se encuentra en la ruta "Data"
-- Actaulizar los settings de conectión string:
-- "ConnectionStrings": {
-    "PrototypeConnection": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-  }
- - El aplicativo guarda las imagenes en file storage por tal motivo se debe actaulizar el setting de la ruta:
- -  "FileSettings": {
-    "pathOwnerPhotos": "c://proptotype/"
-  },
-  
-- Existe un API de autenticación la cual es la encargada de devolver el token necesario para el consumo de las demás APIs.  
+# Assumptions
+- The application uses InMemoryCache and it is refreshed every hour
+- Authentication is based on username and password and it generates a JWT.
+  The only validation that is carried out is that it is a valid email and
+  that the password has more than 8 characters.
+# Execution
+
+# Demo
+An implementation was carried out which is available at:
+- [Web Site](https://wonderful-wave-0f1681e1e.4.azurestaticapps.net/)
+- [Web Api](https://nextech-demo-api.azurewebsites.net/)
+
+
+
+
+
+
+
