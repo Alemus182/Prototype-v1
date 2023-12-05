@@ -1,15 +1,20 @@
 # Prototype-v1
 
-Línea base para construccuión de apis basadas en .net 5, bajo los enfoques propuestos de data driven, clean architecture y el uso de los proncipios de desarrollo SOLID.
+Baseline for construction of an API based on .net 5, under the proposed clean architecture approaches and the use of SOLID development principles.
+As well as a single page application base in angular 
 
-# Pila Tecnologíca
-- .net 5
-- Dapper
-- FluentValidation
-- Mediator
-- Swagger
-- JWT Bearer token `autentication`
-
+# Technology Stack
+## Backend
+    - .net 5
+    - Minimal Apis
+    - FluentValidation
+    - Mediator
+    - JWT Bearer token `autentication`
+## Frontend
+    - Angular 10
+    - Angular Material
+    - Boostrap
+    - RxJs
 # Instruccion de Uso
 - Descargar el backup de la base de datos que se encuentra en la ruta "Data"
 - Actaulizar los settings de conectión string:
